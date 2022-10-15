@@ -5,6 +5,7 @@ public class Pentagon extends Shape {
 
     public Pentagon(double length) {
         this.length = length;
+        this.shapeName = "Pentagon";
     }
 
     @Override

@@ -9,6 +9,7 @@ public class Triangle extends Shape {
         this.sideA = sideA;
         this.sideB = sideB;
         this.sideC = sideC;
+        this.shapeName = "Triangle";
     }
 
     @Override

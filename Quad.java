@@ -5,6 +5,7 @@ public class Quad extends Shape {
 
     public Quad(double length) {
         this.length = length;
+        this.shapeName = "Quad";
     }
 
     @Override

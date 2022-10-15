@@ -8,23 +8,23 @@ public class ShapeTest {
         Shape rectangle = new Rectangle(18.3, 20.4);
         Shape triangle = new Triangle(4.5, 12.3, 8.5);
 
-        circle.printName();
+        ShapePrinter.shapePrint(circle);
         System.out.println("circle area = " + circle.area());
         System.out.println("circle perimeter = " + circle.perimeter());
 
-        pentagon.printName();
+        ShapePrinter.shapePrint(pentagon);
         System.out.println("pentagon area = " + pentagon.area());
         System.out.println("pentagon.perimeter() = " + pentagon.perimeter());
 
-        quad.printName();
+        ShapePrinter.shapePrint(quad);
         System.out.println("quad.area() = " + quad.area());
         System.out.println("quad.perimeter() = " + quad.perimeter());
 
-        rectangle.printName();
+        ShapePrinter.shapePrint(rectangle);
         System.out.println("rectangle.area() = " + rectangle.area());
         System.out.println("rectangle.perimeter() = " + rectangle.perimeter());
 
-        triangle.printName();
+        ShapePrinter.shapePrint(triangle);
         System.out.println("triangle.area() = " + triangle.area());
         System.out.println("triangle.perimeter() = " + triangle.perimeter());
     }
